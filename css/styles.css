@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6,p{margin: 0px;
        padding-left: 0;
        margin: 0;}
 
-*,*::before,*::after{ box-sizing: inherit;}
+       *,*::before,*::after{ box-sizing: inherit;}
 
 .visually-hidden {
     position: absolute;
@@ -119,25 +119,6 @@ h1, h2, h3, h4, h5, h6,p{margin: 0px;
     .nav-contact :hover,
     .nav-contact :focus,{
         color: var(--accent-color);}
-
-   .icon-tel {
-    display:inline-flex;
-    align-items: center;  }     
-   
-   .icon-tel:hover:: {
-       fill: #2196F3;}
-
-  .icon-tel::before{
-   content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px; 
-    background-repeat: no-repeat;   
-    background-image:url("../images/envelope.svg");
-    background-size: contain;
-  }
-
-    
 
  .hero{
  text-align: center;
@@ -387,7 +368,16 @@ color: var(--accent-color)
 
 }
 
+.icon-item {
+    display: inline;
+    align-items:inherit;
+    margin-right: 10px;}
 
+.icon-smart{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 10px;
+}
 .contact-nav .item + .item
 {margin-left: 50px;}
 
@@ -490,7 +480,7 @@ margin-top: 0;}
     text-decoration: none;
     font-style: normal;}
     
-    .litter-contact:not:last-child) { margin-bottom: 0px;}
+    .litter-contact:not(:last-child){ margin-bottom: 0px;}
 
    
  

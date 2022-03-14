@@ -371,12 +371,16 @@ color: var(--accent-color)
 .icon-item {
     display: inline;
     align-items:inherit;
-    margin-right: 10px;}
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 .icon-smart{
     display: inline;
     margin-left: 50px;
     margin-right: 10px;
+    fill: currentColor;
+
 }
 .contact-nav .item + .item
 {margin-left: 50px;}

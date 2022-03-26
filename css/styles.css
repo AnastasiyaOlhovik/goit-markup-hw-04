@@ -121,13 +121,17 @@ h1, h2, h3, h4, h5, h6,p{margin: 0px;
         color: var(--accent-color);}
 
  .hero{
+ max-width: 1600px;
  text-align: center;
  padding: 200px 0 200px 0;
  margin: 0 auto;
- background-color: #2F303A;
- ;}
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #C4C4C4;
+ background-image: linear-gradient( to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);), url(../images/fonHero.jpg);}
 
-    .hero-title {
+
+ .hero-title {
     width: 696px;
     margin:0 auto;
     text-align: center;
@@ -271,12 +275,20 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 text-align: center;
 width: 270px;
+height: 428px;
 }
     
 
 .worker .item + .item {
     margin-left: 30px;
 }
+
+
+.socials-link {
+
+
+}
+
 
 .footer {
     padding: 60px 0 60px 0;
@@ -369,12 +381,17 @@ color: var(--accent-color)
 }
 
 .icon-item {
-    display: inline;
-    align-items:inherit;
     margin-right: 10px;
     fill: currentColor;
 }
 
+.envelope {
+    display: inline;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repaet;
+    background-position: center;
+}
 .icon-smart{
     display: inline;
     margin-left: 50px;

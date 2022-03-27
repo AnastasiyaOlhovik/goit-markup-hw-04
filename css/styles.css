@@ -35,13 +35,11 @@ h1, h2, h3, h4, h5, h6,p{margin: 0px;
     border: 0;
     clip: rect(0 0 0 0);
 }
-}
 /*Логотип*/
 
 
 .brd {border-bottom: 1px solid #ECECEC;}
 
-}
 
 .logo {
     font-family:  "Raleway", sans-serif;
@@ -100,35 +98,31 @@ h1, h2, h3, h4, h5, h6,p{margin: 0px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
-        margin-right: auto;
-
-    }
+        margin-right: auto;}
     
     
     .menu-nav-list :hover,
     .menu-nav-list :focus {
-    color: var(--accent-color);
-    }
+    color: var(--accent-color);}
 
     .nav-contact {
     font-style: 500;
     line-height:1.14;
     color: var(--title-text-color);
-    text-decoration: none;    }
+    text-decoration: none;}
 
     .nav-contact :hover,
     .nav-contact :focus,{
         color: var(--accent-color);}
 
- .hero{
- max-width: 1600px;
+ .hero { max-width: 1600px;
  text-align: center;
  padding: 200px 0 200px 0;
  margin: 0 auto;
  background-repeat: no-repeat;
  background-position: center;
  background-color: #C4C4C4;
- background-image: url(/images/hero.jpg), ( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);)
+ background-image: linear-gradient ( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4), url(/images/hero.jpg); }
 
 
  .hero-title {
@@ -184,10 +178,9 @@ text-align: center;}
     font-weight: bold;
     font-style: 700;
     line-height: 1.14;
-    color: var(--primary-text-color)
-}
+    color: var(--primary-text-color)}
 
-.featurest-list{
+.featurest-list {
 display: flex;
 justify-content: space-between;}
 

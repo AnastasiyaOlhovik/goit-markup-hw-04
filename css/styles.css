@@ -420,9 +420,6 @@ color:var(--accent-color);
 
     .icon-item {
     fill:#757575;  
-    width: 10px;
-    height: 16px;
-    align-items: center;          
     margin-right: 10px;
     margin-left: 50px;}
 

@@ -106,14 +106,25 @@ h1, h2, h3, h4, h5, h6,p{margin: 0px;
     color: var(--accent-color);}
 
     .nav-contact {
+    display: flex;
     line-height:1.14;
     color: var(--title-text-color);
     text-decoration: none;}
 
-    .link-van :hover,
-    .link-van :focus {  
-        color: var(--accent-color);
+
+
+    .nav-contact:hover .icon-mail,
+    .nav-contact:focus .icon-mail{  
         fill: #2196F3;}
+        
+    .nav-contact:hover .icon-item,
+    .nav-contact:focus .icon-item{  
+        fill: #2196F3;}        
+            
+    .nav-contact:hover,
+    .nav-contact:focus {  
+        color: var(--accent-color);}
+
 
  .hero { max-width: 1600px;
  text-align: center;
@@ -411,11 +422,6 @@ color:var(--accent-color);
     line-height: 1.14;}
 
 
-    .nav-contact:hover,
-    .nav-contact:focus{
-        color: var(--accent-color);
-        fill: var(--accent-color);}
-
 
 
     .icon-item {
@@ -423,8 +429,10 @@ color:var(--accent-color);
     margin-right: 10px;
     margin-left: 50px;}
 
-.icon-mail {margin-right: 10px;
-    fill: #757575;}
+.icon-mail {
+    margin-right: 10px;
+    fill: #757575;
+    align-self: center;}
 
 .contact-nav .item + .item
 {margin-left: 50px;}
@@ -476,6 +484,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 margin-bottom: 4px;
+letter-spacing: 0.06em;
 }
 
 .portfolio {
@@ -489,7 +498,12 @@ margin-bottom: 4px;
 .span-shadow:hover,
 .span-shadow:focus
  {box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}   
- 
+
+ .span-shadow {
+     display: block;
+ }
+
+
 .but-shadow:hover,
 .but-shadow:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -513,6 +527,7 @@ margin-bottom: 4px;
 font-weight: 400;   
 font-size: 16px;
 line-height:1.87;
+letter-spacing: 0.03em;
 color: var(--title-text-color);
 text-decoration:none;
 margin-top: 0;}
@@ -540,7 +555,9 @@ margin-top: 0;}
     text-decoration: none;
     font-style: normal;}
     
-    .litter-contact:not(:last-child){ margin-bottom: 0px;}
+
+
+
 
    /* Постоянніе клиенты*/
 
@@ -568,14 +585,13 @@ margin-top: 0;}
 
     .client-item:not(:last-child){ margin-right: 30px;}
 
-
-    .client-icon:hover,
-    .client-icon:focus{
-    fill: #2196f3;}    
-  
+    
+    .client:hover .client-icon,
+    .client:focus .client-icon{  fill: #2196F3;}
+        
     .client:hover,
-    .client:focus{
-    border: 1px solid #2196f3;}   
+    .client:focus { border: 1px solid #2196f3;}
+  
   
 
     .all-vector { display:inline-block;
@@ -609,7 +625,13 @@ margin-top: 0;}
 }    
 
 
-
+.point {
+    margin-bottom: 0px;
+    line-height: 24px;
+    letter-spacing:0.03em;
+    font-style: normal;
+    border-top: 9px;
+color: rgba(255, 255, 255, 0.6)}
 
 .podval { display:block}
 
